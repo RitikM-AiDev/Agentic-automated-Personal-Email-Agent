@@ -1,0 +1,85 @@
+Common Actions You Can Perform
+1. ✅ Mark as READ
+
+Remove UNREAD
+
+{
+  "removeLabelIds": ["UNREAD"]
+}
+
+2. 🔵 Mark as UNREAD
+
+Add UNREAD
+
+{
+  "addLabelIds": ["UNREAD"]
+}
+
+3. 📥 Archive Email
+
+Remove INBOX
+
+{
+  "removeLabelIds": ["INBOX"]
+}
+
+4. 🗑️ Move to Trash
+
+Add TRASH
+
+{
+  "addLabelIds": ["TRASH"]
+}
+
+5. 🚫 Mark as Spam
+
+Add SPAM
+
+{
+  "addLabelIds": ["SPAM"]
+}
+
+6. ⭐ Star Email
+
+Add STARRED
+
+{
+  "addLabelIds": ["STARRED"]
+}
+
+7. ⭐ Remove Star
+
+Remove STARRED
+
+{
+  "removeLabelIds": ["STARRED"]
+}
+
+8. ❗ Mark as Important
+
+Add IMPORTANT
+
+{
+  "addLabelIds": ["IMPORTANT"]
+}
+
+9. 🏷️ Add Custom Label (Example: AUTO_REPLIED)
+{
+  "addLabelIds": ["AUTO_REPLIED"]
+}
+
+10. 📂 Move Between Categories
+
+Gmail categories are labels too:
+
+Category	Label
+Primary	CATEGORY_PRIMARY
+Social	CATEGORY_SOCIAL
+Promotions	CATEGORY_PROMOTIONS
+Updates	CATEGORY_UPDATES
+Forums	CATEGORY_FORUMS
+Move to Promotions
+{
+  "addLabelIds": ["CATEGORY_PROMOTIONS"],
+  "removeLabelIds": ["CATEGORY_PRIMARY"]
+}

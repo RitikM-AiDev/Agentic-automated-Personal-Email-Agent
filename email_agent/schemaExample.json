@@ -1,0 +1,78 @@
+
+{
+ "_comment" : "msg_data of a gmail api",
+  "id": "187c5a2f9d3a1234",
+  "threadId": "187c5a2f9d3a5678",
+  "labelIds": [
+    "INBOX",
+    "CATEGORY_PRIMARY",
+    "UNREAD"
+  ],
+  "snippet": "Hi Ritik, I'm doing great, thank you...",
+  "payload": {
+    "partId": "",
+    "mimeType": "multipart/alternative",
+    "filename": "",
+    "headers": [
+      {
+        "name": "From",
+        "value": "Rohit Kumar <rohitkc24am@srishakthi.ac.in>"
+      },
+      {
+        "name": "To",
+        "value": "Ritik <ritikmohanbabu@gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": "Re: Hi Ritik"
+      },
+      {
+        "name": "Date",
+        "value": "Fri, 31 Jan 2026 10:21:33 +0530"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<CA12345@mail.gmail.com>"
+      }
+    ],
+    "body": {
+      "size": 0
+    },
+    "parts": [
+      {
+        "partId": "0",
+        "mimeType": "text/plain",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "text/plain; charset=UTF-8"
+          }
+        ],
+        "body": {
+          "size": 120,
+          "data": "SGkgUml0aWssIEknbSBkb2luZyBncmVhdCwgdGhhbmsgeW91IQ=="
+        }
+      },
+      {
+        "partId": "1",
+        "mimeType": "text/html",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "text/html; charset=UTF-8"
+          }
+        ],
+        "body": {
+          "size": 250,
+          "data": "PGh0bWw+PEJPRFk+SGkgUml0aWssIEknbSBkb2luZyBncmVhdCE8L0JPRFk+PC9odG1sPg=="
+        }
+      }
+    ]
+  },
+  "sizeEstimate": 3456,
+  "historyId": "1234567",
+  "internalDate": "1706683893000"
+}
+
